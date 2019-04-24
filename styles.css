@@ -1,6 +1,46 @@
-head {
-    text-align: center;
-    background-color: black;
-    color: white
+body {
+    /* width: 1200px; */
+    background-image: url("bos2.jpg");
+    /* background-repeat: round; */
+    background-size: cover;
 }
-  
+#container {
+    background-color:#B45F04;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header {
+    background-color:#088A08;
+    color : white;
+    text-align: center
+}
+#date {
+    text-align: center;
+
+
+}
+#nav {
+    
+    background-color:#B45F04;
+    width: 180 px;
+    float: left;
+}
+#main {
+    
+    background-color:#B45F04;
+    width: 600px;
+    float: right;
+
+
+}
+#content{
+    padding: 10px;
+    
+
+
+}
+#footer {
+
+
+}
