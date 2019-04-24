@@ -1,46 +1,134 @@
-body {
-    /* width: 1200px; */
-    background-image: url("bos2.jpg");
-    /* background-repeat: round; */
-    background-size: cover;
-}
-#container {
-    background-color:#B45F04;
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-}
-#header {
-    background-color:#088A08;
-    color : white;
-    text-align: center
-}
-#date {
-    text-align: center;
-
-
-}
-#nav {
+    body {
+        font-family: arial, helvetica, sans-serif;
+        font-size:15px;
+        line-height:1.5;
+        padding:0;
+        margin:0;
+        background:#F8FBEF;
+    }
+    .container {
+        background-color: ;
+        width: 80%;
+        margin: auto;
     
-    background-color:#B45F04;
-    width: 180 px;
-    float: left;
-}
-#main {
+    }
+    header {
+        background-color:#088A08;
+        color : white;
+        padding-top:30px;
+        min-height:70px;
+        border-bottom:#DF7401 3px solid
+    }
+    #date {
+
+    }
+    header a{
+        color:#ffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size:16px;
+    }
+    header a:hover{
+        color: black
+    }
+    header ul{
+        margin:0;
+        padding:0;
+    }
+    header li{
+        float:left;
+        display:inline;
+        padding: 0 20px 0 20px
+    }
+    header #branding{
+        float:left;
+    }
+    header #branding h1{
+        margin:0;
+    }
+    header nav{
+        float:right;
+        margin-top: 10px;
+    }
+        /* Showcase */
+    #showcase{
+        min-height:400px;
+        background:url("bos2.jpg");
+        text-align:center;
+        color:#ffffff;
+        /* width:80%; */
+        margin-top:50px;
+        margin-left:145px;
+        margin-right:145px;
+    }
     
-    background-color:#B45F04;
-    width: 600px;
-    float: right;
-
-
-}
-#content{
-    padding: 10px;
+    #showcase h1{
+        margin-top:100px;
+        font-size:55px;
+        margin-bottom:50px;
+    }
     
+    #showcase p{
+        font-size:20px;
+    }
+    #activiteiten h2{
+        text-align: center;
+    }
+
+    #activiteiten{
+        margin-top:20px
+    }
+    #activiteiten .activiteit{
+        /* float:left; */
+        display: inline-block;
+        text-align: center;
+        width: 30%;
+        padding:10px;
+    }
+    #footer{
+        padding:20px;
+        margin-top:20px;
+        color:#ffffff;
+        background-color:#088A08;
+        text-align: center;
+      }
 
 
-}
-#footer {
 
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #date {
+
+
+    }
+    nav {
+        height: 20px;    
+    }
+    #main {
+
+
+
+    }
+    #content{
+        
+        
+
+
+    }
+    #footer {
+
+
+    }
